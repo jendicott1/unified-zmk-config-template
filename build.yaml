@@ -1,6 +1,4 @@
-# Build targets for your ZMK firmware
+# ZMK Build Targets (Simple Array Format)
 ---
-build:
-  targets:
-    - board: nice_nano_v2
-      shield: uart_ble_key
+- board: nice_nano_v2
+  shield: uart_ble_key
